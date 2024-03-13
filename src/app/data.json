@@ -1,0 +1,182 @@
+[
+    {
+      "country": "United States",
+      "district": "Manhattan",
+      "lat": 40.7831,
+      "longitude": -73.9712,
+      "registered_month": "January",
+      "registered_time": "10:23:45",
+      "username": "john_doe"
+    },
+    {
+      "country": "United Kingdom",
+      "district": "London Borough of Camden",
+      "lat": 51.5517,
+      "longitude": -0.1588,
+      "registered_month": "March",
+      "registered_time": "15:12:30",
+      "username": "emma_smith"
+    },
+    {
+      "country": "Pakistan",
+      "district": "Lahore",
+      "lat": 31.5497,
+      "longitude": 74.3436,
+      "registered_month": "February",
+      "registered_time": "08:45:20",
+      "username": "ali_khan"
+    },
+    {
+      "country": "Australia",
+      "district": "Sydney",
+      "lat": -33.8688,
+      "longitude": 151.2093,
+      "registered_month": "May",
+      "registered_time": "09:57:10",
+      "username": "sarah_jones"
+    },
+    {
+      "country": "United States",
+      "district": "Los Angeles",
+      "lat": 34.0522,
+      "longitude": -118.2437,
+      "registered_month": "June",
+      "registered_time": "14:30:55",
+      "username": "michael_smith"
+    },
+    {
+      "country": "China",
+      "district": "Beijing",
+      "lat": 39.9042,
+      "longitude": 116.4074,
+      "registered_month": "July",
+      "registered_time": "11:11:11",
+      "username": "lisa_wang"
+    },
+    {
+      "country": "Egypt",
+      "district": "Cairo",
+      "lat": 30.0444,
+      "longitude": 31.2357,
+      "registered_month": "August",
+      "registered_time": "16:45:30",
+      "username": "mohammed_ahmed"
+    },
+    {
+      "country": "Hungary",
+      "district": "Budapest",
+      "lat": 47.4979,
+      "longitude": 19.0402,
+      "registered_month": "September",
+      "registered_time": "10:20:40",
+      "username": "anna_kovacs"
+    },
+    {
+      "country": "Mexico",
+      "district": "Mexico City",
+      "lat": 19.4326,
+      "longitude": -99.1332,
+      "registered_month": "October",
+      "registered_time": "08:15:25",
+      "username": "juan_gonzalez"
+    },
+    {
+      "country": "Brazil",
+      "district": "Rio de Janeiro",
+      "lat": -22.9068,
+      "longitude": -43.1729,
+      "registered_month": "November",
+      "registered_time": "13:40:50",
+      "username": "maria_silva"
+    },
+    {
+      "country": "Japan",
+      "district": "Tokyo",
+      "lat": 35.6895,
+      "longitude": 139.6917,
+      "registered_month": "December",
+      "registered_time": "17:25:15",
+      "username": "yuki_tanaka"
+    },
+    {
+      "country": "Spain",
+      "district": "Madrid",
+      "lat": 40.4168,
+      "longitude": -3.7038,
+      "registered_month": "January",
+      "registered_time": "09:30:20",
+      "username": "carlos_gomez"
+    },
+    {
+      "country": "Russia",
+      "district": "Moscow",
+      "lat": 55.7558,
+      "longitude": 37.6176,
+      "registered_month": "February",
+      "registered_time": "14:55:35",
+      "username": "olga_nikitina"
+    },
+    {
+      "country": "Canada",
+      "district": "Toronto",
+      "lat": 43.65107,
+      "longitude": -79.347015,
+      "registered_month": "March",
+      "registered_time": "11:40:45",
+      "username": "david_anderson"
+    },
+    {
+      "country": "France",
+      "district": "Paris",
+      "lat": 48.8566,
+      "longitude": 2.3522,
+      "registered_month": "April",
+      "registered_time": "10:05:55",
+      "username": "sophie_leroy"
+    },
+    {
+      "country": "South Korea",
+      "district": "Seoul",
+      "lat": 37.5665,
+      "longitude": 126.978,
+      "registered_month": "May",
+      "registered_time": "12:15:30",
+      "username": "kim_sung"
+    },
+    {
+      "country": "Portugal",
+      "district": "Lisbon",
+      "lat": 38.7223,
+      "longitude": -9.1393,
+      "registered_month": "June",
+      "registered_time": "16:20:10",
+      "username": "antonio_costa"
+    },
+    {
+      "country": "Germany",
+      "district": "Berlin",
+      "lat": 52.52,
+      "longitude": 13.405,
+      "registered_month": "July",
+      "registered_time": "13:30:45",
+      "username": "lena_schmidt"
+    },
+    {
+      "country": "Argentina",
+      "district": "Buenos Aires",
+      "lat": -34.6037,
+      "longitude": -58.3816,
+      "registered_month": "August",
+      "registered_time": "11:11:11",
+      "username": "victor_hernandez"
+    },
+    {
+      "country": "Russia",
+      "district": "Saint Petersburg",
+      "lat": 59.9343,
+      "longitude": 30.3351,
+      "registered_month": "September",
+      "registered_time": "14:40:20",
+      "username": "anastasia_ivanova"
+    }
+  ]
