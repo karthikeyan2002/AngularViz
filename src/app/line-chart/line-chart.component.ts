@@ -28,7 +28,6 @@ export class LineChartComponent {
     this.data.getData().subscribe(
       (res: any) => {
         this.user = res;
-        console.log(this.user);
         this.countHours(this.user);
         this.createlineChart(Object.keys(this.months), Object.values(this.months));
       },
@@ -42,8 +41,6 @@ export class LineChartComponent {
   countHours(users: UserData[]) {
     this.months = {};
     users.forEach(user => {
-      console.log(user);
-      
       const registeredTimeParts = user.registered_time.split(' ')[0].split(':');
       let registeredHour = parseInt(registeredTimeParts[0]);
       const amPm = user.registered_time.split(' ')[1];

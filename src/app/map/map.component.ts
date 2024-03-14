@@ -28,8 +28,8 @@ export class MapComponent {
    
     private initMap(): void {
       this.map = L.map('map', {
-        center: [36, 0],
-        zoom: 3
+        center: [36, 100],
+        zoom: 1
       });
    
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -37,7 +37,7 @@ export class MapComponent {
       }).addTo(this.map);
    
    
-      const heatData = this.dataResponse.map(record => [record.latitude, record.longitude,1]);
+      const heatData = this.dataResponse.map(record => [record.latitude, record.longitude,20]);
       const heatLayer = (L as any).heatLayer(heatData, {
         radius: 20,
         gradient: { 
