@@ -7,13 +7,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { MapComponent } from './map/map.component';
+import { LineChartComponent } from './line-chart/line-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BarChartComponent,
     PieChartComponent,
-    MapComponent
+    MapComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
