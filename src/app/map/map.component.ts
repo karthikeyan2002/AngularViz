@@ -37,17 +37,10 @@ export class MapComponent {
       }).addTo(this.map);
    
    
-      const heatData = this.dataResponse.map(record => [record.latitude, record.longitude,20]);
+      const heatData = this.dataResponse.map(record => [record.latitude, record.longitude, 1]);
       const heatLayer = (L as any).heatLayer(heatData, {
         radius: 20,
-        gradient: { 
-          0.1: 'blue',
-          0.2: 'cyan',
-          0.4: 'lime',
-          0.6: 'yellow',
-          0.8: 'orange',
-          1: 'red'
-        }
+        gradient: { 0.4: 'red', 0.65: 'lime', 1: 'blue' }
       }).addTo(this.map);
       
       
