@@ -65,7 +65,7 @@ export class LineChartComponent {
         labels: labels,
         datasets: [
           {
-            label: 'Month',
+            label: 'Users',
             data: data,
             backgroundColor: 'blue'
           },

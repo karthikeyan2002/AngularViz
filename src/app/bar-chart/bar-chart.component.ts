@@ -23,7 +23,7 @@ export class BarChartComponent {
       },
       (error: any) => {
         console.error('Error fetching data:', error);
-        // Handle error as needed
+
       }
     );
   }
@@ -76,7 +76,7 @@ export class BarChartComponent {
  
     const ctx = document.getElementById('MyCharts') as HTMLCanvasElement;
     if (this.barChart) {
-      this.barChart.destroy(); // Destroy existing chart instance
+      this.barChart.destroy(); 
     }
     this.barChart = new Chart(ctx, {
       type: 'bar',
@@ -84,7 +84,7 @@ export class BarChartComponent {
         labels: labels,
         datasets: [
           {
-            label: 'Month',
+            label: 'Users',
             data: data,
             backgroundColor: 'blue'
           },

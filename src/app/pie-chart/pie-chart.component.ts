@@ -42,9 +42,12 @@ export class PieChartComponent {
         labels: Object.keys(this.district),
         datasets: [
           {
-            label: 'District',
+            label: 'Users',
             data: Object.values(this.district),
-            backgroundColor: ['red','blue','yellow','green','orange']
+            backgroundColor: [
+              "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Brown", "Gray", "Black",
+              "White", "Cyan", "Magenta", "Lavender", "Turquoise", "Maroon", "Teal", "Navy", "Olive", "Indigo"
+          ]
           },
         ]
       },
